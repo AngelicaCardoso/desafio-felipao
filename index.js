@@ -1,4 +1,4 @@
-// Lista com os nome e xp dos heróis 
+// Lista com os nomes e xp dos heróis 
 const herois = [
     { nome: "Moon", xp: 800 },
     { nome: "Violet", xp: 1500 },
@@ -36,7 +36,7 @@ const herois = [
     console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
   }
   
-  // Laço para classificar 9s heróis da lista
+  // Laço para classificar os heróis da lista
   for (let i = 0; i < herois.length; i++) {
     const { nome, xp } = herois[i];
     classificarHeroi(nome, xp);
